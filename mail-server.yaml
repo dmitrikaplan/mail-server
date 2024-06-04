@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: mail-server
-          image: mail-server:1
+          image: dmitrykaplan/mail-server:1
           envFrom:
             - secretRef:
                 name: mail-server-secret
