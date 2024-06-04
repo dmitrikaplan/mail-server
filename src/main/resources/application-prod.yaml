@@ -45,3 +45,6 @@ mail:
 
 endpoint:
   activation: activation
+
+server:
+  port: 8080
